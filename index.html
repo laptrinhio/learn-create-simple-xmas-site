@@ -14,7 +14,7 @@
 		text-align: center;
 
 		font-size: 18px;
-		padding-top: 50px;
+		padding-top: 150px;
 
 		font-family: 'Fredoka One', cursive;
 	}
@@ -26,13 +26,17 @@
 </head>
 <body>
 
-	<h1>Merry Christmas</h1>
+	<h1>Merry Christmas 2016</h1>
 	<p>Wish you all a <strong>Happy Holidays</strong></p>
 
-	<script src="js/snowstorm.js"></script>	
-	<script>
-	// customize 
-	snowStorm.snowCharacter = '❄';
+	<script src="js/snowstorm.js"></script>
+  <script>
+    var audio = new Audio('sounds/xmas.mp3');
+    audio.play();
+    audio.loop = true;
+  </script>
+	<!-- // customize -->
+	<!-- snowStorm.snowCharacter = '❄'; -->
 	</script>
 </body>
 </html>
